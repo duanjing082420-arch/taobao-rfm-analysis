@@ -2,6 +2,9 @@
 
 > 完整链路：**数据生成 → SQL 清洗 → 指标计算 → 漏斗定位 → RFM 分层 → 运营策略 → 交互看板**
 > 数据：200 万行电商用户行为（分布对齐阿里天池真实数据集）｜ 工具：SQLite + SQL + Python (pandas/plotly)
+>
+> 仓库地址：https://github.com/duanjing082420-arch/taobao-rfm-analysis
+> 交互看板：`output/dashboard.html` —— 克隆后用浏览器直接打开（单文件、无需联网、无需安装）。
 
 ## 核心结果一览
 
