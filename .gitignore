@@ -1,0 +1,16 @@
+# ===== 超大数据文件（超过 GitHub 单文件 100MB 限制，且均可由脚本重新生成）=====
+# 数据库（352MB）：由 scripts/02_load_and_clean.py 基于原始 CSV 重建
+data/processed/
+# 原始仿真数据（87MB）：由 scripts/01_generate_data.py 重新生成
+data/raw/
+# MySQL 安装包（233MB）：仅本地迁移用，无需入库
+_downloads/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
